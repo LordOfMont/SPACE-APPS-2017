@@ -1,0 +1,94 @@
+*{
+	background-color: black;
+	padding: none;
+	margin: none;
+}
+#titulo{
+	color: azure;
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	font-size: 200%;
+}
+#menu{
+	background-color: black;
+	height: 35px;
+}
+#banner{
+	animation-name: spaceapps;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+a{
+	text-decoration: none;
+	color: #E62A2A;
+}
+a:hover{
+	text-decoration: none;
+	color: azure;
+}
+#menu .movil-7{
+	border: black 2px groove;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 3px;
+	text-align: center;
+	color: #E62A2A;
+	font-family: 'Baloo', cursive;
+}
+#menu .movil-7:hover{
+	border: black 2px groove;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 3px;
+	text-align: center;
+	color: blue;
+	font-family: 'Baloo', cursive;
+	transition: 2s;
+}
+
+#pie{
+	margin: none;
+	padding: none;
+	border: solid 2px white	;
+}
+ul{
+	background-color: black;
+	padding: 10px;
+	margin: 2px;
+}
+/*ul:hover{
+	background-color: black;
+	height: 30px;
+	transition: 2s;
+}*/
+@keyframes bota{
+	from{opacity: 0.0;}
+	to{opacity: 1.0;}
+}
+@keyframes botb{
+	50%{opacity: 0.0;}
+	from{opacity: 0.0;}
+	to{opacity: 1.0;}
+}
+@keyframes botc{
+	66%{opacity: 0.0;}
+	from{opacity: 0.0;}
+	to{opacity: 1.0;}
+}
+@keyframes botd{
+	75%{opacity: 0.0;}
+	from{opacity: 0.0;}
+	to{opacity: 1.0;}
+}
+@keyframes spaceapps{
+	from{opacity: 0.0;}
+	to{opacity: 1.0;}
+}
+@keyframes team{
+	0%{opacity: 0.0;}
+	50%{opacity: 0.0;}
+	from{opacity: 0.0;}
+	to{opacity: 1.0;}
+}  
